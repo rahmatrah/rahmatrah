@@ -16,7 +16,7 @@ printf "\n \e[1;92mUpdating \e[1;94mTERMUX-WELCOME\e[1;92m ...\n\n"
 sleep 1.5
 cd ..
 rm -rf TERMUX-WELCOME
-git clone https://github.com/rahmatrah/rahmatrah
+git clone https://github.com/rahmatrah/rahmatrah/tree/main
 cd rahmatrah
 printf "\n\e[1;92mRestarting ...\n\e[0m"
 bash install.sh
